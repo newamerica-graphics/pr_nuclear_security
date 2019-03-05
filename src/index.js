@@ -14,8 +14,9 @@ const settings = {
     ReactDOM.render(
       <ChartContainer>
         <Title>
-          Percentage of Women in U.S. Delegations to the UNGA First Committee on
-          Disarmament and International Security (1980-2015)
+          Percentage of Women in U.S. Delegations to the UN General Assembly
+          (UNGA) First Committee on Disarmament and International Security
+          (1980-2015)
         </Title>
         <Chart
           maxWidth={600}
