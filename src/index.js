@@ -12,7 +12,7 @@ const settings = {
   unga: el => {
     const _data = data.us_unga.map(d => ({ year: d.year, value: +d.value }));
     ReactDOM.render(
-      <ChartContainer style={{ maxWidth: 600 }}>
+      <ChartContainer>
         <Title>
           Percentage of Women in U.S. Delegations to the UNGA First Committee on
           Disarmament and International Security (1980-2015)
@@ -59,7 +59,7 @@ const settings = {
   npt: el => {
     const _data = data.us_npt.map(d => ({ year: d.year, value: +d.value }));
     ReactDOM.render(
-      <ChartContainer style={{ maxWidth: 600 }}>
+      <ChartContainer>
         <Title>
           Percentage of Women in U.S. Delegations to the Treaty on the
           Non-Proliferation of Nuclear Weapons (NPT) Review Conferences
